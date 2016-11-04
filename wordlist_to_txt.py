@@ -1,3 +1,16 @@
+# Ben Woodfield
+# Version used for Youtube Tutorials and examples
+# Uses shell window to gather user input and saves the list to a text document
+
+#### THE TEXT DOCUMENT WILL SAVE IN THE SAME FOLDER AS THIS PYTHON PROGRAM IS SAVED AND RUN FROM ####
+#### REMEMBER TO TYPE THE FILENAME WITH THE .TXT EXTENSION ####
+#### USE (CTRL+C) TO KILL THE PROGRAM ####
+
+#### IF YOU SET THE REQUIREMENTS TOO LONG YOU WILL BE WAITING A LONG TIME FOR YOUR RESULTS ####
+#### THIS PROGRAM IS AUTOMATICALLY SET TO THE FULL ALPHABET IN LOWER CASE, AND ALSO NUMBERS ####
+#### IF YOU CHOOSE LENGTH ANY LONGER THAN 3 THE RESULTS WILL TAKE A LONG TIME AND USE UP RAM AND PROCESSING POWER ####
+#### SEE LINE 28 TO CHANGE THE LIST RESULT CHARACTERS ####
+
 import time
 
 print ("Welcome to List Generator!");
@@ -12,7 +25,7 @@ print ("Running, Please Wait!");
 print ("---------------------------------------------------");
 lista=[0 for x in xrange(length)]
 x=length-1
-string="abcdefghijklnmopqrstuvwxyz1234567890" # Add your list requirements here
+string="abcdefghijklnmopqrstuvwxyz1234567890" # Add/edit your list results preferences here
 list_of_results=[]
 file1=file(name,"w")
 while(x>-1):
